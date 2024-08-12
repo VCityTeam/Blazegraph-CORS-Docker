@@ -6,6 +6,10 @@ A Blazegraph (RDF-Store) for storing/serving semantic graph data with a SPARQL R
 - Sources : https://github.com/phenoscape/blazegraph-docker
 - Images published on [Docker hub](https://hub.docker.com/r/vcity/blazegraph-cors).
 
+## Options
+
+Set $BLAZEGRAPH_QUADS environment variable to "true" to activate the Quads mode (! check the [Blazegraph Quads mode limitations](https://github.com/blazegraph/database/wiki/Blazegraph_FAQ) !)
+
 ## Modifications from source:
 **Dockerfile:**
 - Added new authors
