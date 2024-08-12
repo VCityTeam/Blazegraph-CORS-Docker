@@ -33,6 +33,7 @@ RUN chmod +x ${BLAZEGRAPH_RW_PATH}/entrypoint.sh
 # create the mount point for configuration files
 RUN mkdir /data
 ADD blazegraph.properties /data/blazegraph.properties
+ADD blazegraph.properties /data/blazegraph-quads.properties
 
 # the port on which Blazegraph will be listening within the container
 EXPOSE 8080
