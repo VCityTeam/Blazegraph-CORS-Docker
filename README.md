@@ -16,6 +16,9 @@ A Blazegraph (RDF-Store) for storing/serving semantic graph data with a SPARQL R
 **blazegraph.properties:**
 - A properties file with default parameters to initialize Blazegraph
 
+**blazegraph-quads.properties:**
+- A properties file with default parameters to initialize Blazegraph in quads mode
+
 **entrypoint.sh**
 - use su-exec to launch Blazegraph
 
