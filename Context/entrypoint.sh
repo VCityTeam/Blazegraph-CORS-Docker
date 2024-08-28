@@ -25,5 +25,8 @@ su-exec blazegraph:blazegraph \
     -Djetty.port=8080 \
     -Djetty.overrideWebXml=readonly_cors.xml \
     -Dbigdata.propertyFile=blazegraph.properties \
+    -Dorg.wikidata.query.rdf.tool.rdf.RdfRepository.timeout=3600000 \
+    -Dorg.wikidata.query.rdf.tool.wikibase.WikibaseRepository.timeout=3600000 \
+    -Djetty.start.timeout=3600000 \
     -cp $BLAZEGRAPH_RW_PATH/blazegraph.jar:$BLAZEGRAPH_RW_PATH/jetty-servlets-9.2.3.v20140905.jar \
     com.bigdata.rdf.sail.webapp.StandaloneNanoSparqlServer
