@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM eclipse-temurin:8-jdk-alpine
 
 LABEL maintainer="jey.puget-gil@liris.cnrs.fr, diego.vinasco-alvarez@liris.cnrs.fr"
 LABEL authors="balhoff@renci.org, jey.puget-gil@liris.cnrs.fr, diego.vinasco-alvarez@liris.cnrs.fr"
