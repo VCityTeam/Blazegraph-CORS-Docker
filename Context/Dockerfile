@@ -11,7 +11,8 @@ ENV BLAZEGRAPH_VERSION=BLAZEGRAPH_RELEASE_2_1_5 \
     BLAZEGRAPH_GID=888 \
     BLAZEGRAPH_RW_PATH=/blazegraph \
     BLAZEGRAPH_TIMEOUT="60000" \
-    BLAZEGRAPH_MEMORY="8G"
+    BLAZEGRAPH_MEMORY="8G" \
+    BLAZEGRAPH_READONLY="false"
 ENV BLAZEGRAPH_VERSION_URL=https://github.com/blazegraph/database/releases/download/${BLAZEGRAPH_VERSION}/blazegraph.jar
 
 # install dependencies
